@@ -1,0 +1,22 @@
+.input{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: black;
+}
+.input_text{
+    width: 100%;
+    border: 2px solid black;
+    height: auto; 
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    outline-width: 0;
+    border-radius: 5px;
+}

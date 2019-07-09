@@ -1,0 +1,19 @@
+.header{
+    background: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    height: 80px;
+    width: auto;
+    display: flex;
+}
+.header-icon{
+    display: flex;
+    width: auto;
+    flex-direction: row;
+}
+.header-icon-image{
+    width: 20%;
+    align-self: left;
+    margin-left: 2%;
+}

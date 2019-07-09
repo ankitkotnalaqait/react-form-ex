@@ -1,0 +1,9 @@
+.body{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
