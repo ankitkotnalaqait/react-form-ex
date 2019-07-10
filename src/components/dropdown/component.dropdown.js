@@ -10,7 +10,7 @@ class Dropdown extends React.Component{
         return(
            
             <div className="input">
-                <select>
+                <select onChange={(e)=>this.props.selected_val(e)}>
                     {this.getSelectItems(this.props.options)}
                 </select>
             </div>
