@@ -21,6 +21,7 @@ class Panel extends React.Component{
     }
    
     onbtnClick = () => {
+        //console.log(this.checkbox, "ref")
         if(this.state.isChecked){
             console.log('clicked!');
             console.log(this.state);
@@ -52,7 +53,7 @@ class Panel extends React.Component{
                 <Dropdown options ={options} selected_val = {(e)=> this.setState({car : e.target.value})}></Dropdown>
             </div>
             <div className="radio_con">
-                <Checkbox message="Agree ?" isChecked={(e) => this.setState({isChecked:e.target.checked})}/> 
+                <Checkbox message="Agree ?" isChecked={(e) => this.setState({isChecked:e.target.checked})}  /> 
             </div>
             <div>
                 <Button type="sumbit" onHandleClick={this.onbtnClick}/>
@@ -62,4 +63,5 @@ class Panel extends React.Component{
         );
     }
 }
+// ref={checkbox => {this.checkbox = checkbox}}
 export default Panel;
